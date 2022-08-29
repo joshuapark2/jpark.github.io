@@ -47,8 +47,13 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm webdecoded `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h1>{`Hello I'm Joshua Park `}<span className="wrap">{text}</span></h1>
+                        <p>Hello! I am a senior at the Georgia Institute of Technology 
+                            majoring in computer science. My interest in web development 
+                            stems from my curiosity about front-end design as well as the 
+                            logical process of back-end development. Below you will find my 
+                            skills and projects.
+                        </p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

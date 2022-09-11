@@ -335,6 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
+  text-align: center;
   margin: 0 auto 15px auto;
 }
 .background-image-left {

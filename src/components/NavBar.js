@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav} from "react-bootstrap";
 import jpark from "../assets/img/trans1.png";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import github from '../assets/img/icons8-github-250.png';
+import resumeLink from '../assets/img/icons8-link-100.png';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -44,9 +45,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/joshuapark1309/" target="_blank"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/joshuapark2" target="_blank"><img src={github} alt="" /></a>
+                <a href="https://docs.google.com/document/d/1p1un83i0TpFUB_ncoDJWvsXdvM_hMlBs_uL7KxNpI0U/edit?usp=sharing" target="_blank"><img src={resumeLink} alt="" /></a>
             </div>
             <button className="vvd"><span>Let’s Connect</span></button>
             </span>

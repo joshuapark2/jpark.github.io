@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav} from "react-bootstrap";
 import jpark from "../assets/img/trans1.png";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import github from '../assets/img/icons8-github-250.png';
 import resumeLink from '../assets/img/icons8-link-100.png';
 

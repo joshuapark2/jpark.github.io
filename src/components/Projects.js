@@ -2,8 +2,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import portfolioV1 from "../assets/img/PortfolioV1.png";
+import chatBox from "../assets/img/chatbot.png";
+import snakegif from "../assets/img/snakegif.gif";
+import roboFriends from "../assets/img/robofriends.png";
 
 export const Projects = () => {
     const projects = [
@@ -17,27 +20,37 @@ export const Projects = () => {
         {
           title: "Portfolio V1",
           description: "Design & Development",
-          imgUrl: projImg2,
+          imgUrl: portfolioV1,
+          proj: "https://joshuapark2.github.io/robofriends/",
+          repo: "https://github.com/joshuapark2/robofriends",
         },
         {
           title: "RoboFriends",
           description: "Design & Development",
-          imgUrl: projImg3,
+          imgUrl: roboFriends,
+          proj: "https://joshuapark2.github.io/robofriends/",
+          repo: "https://github.com/joshuapark2/robofriends",
         },
         {
           title: "Snake",
           description: "Design & Development",
-          imgUrl: projImg1,
+          imgUrl: snakegif,
+          proj: "https://joshuapark2.itch.io/snake?secret=mtBfNNQ5qSwhryvtRjQqyPU4Y9M",
+          repo: "https://github.com/joshuapark2/snakeGame",
         },
         {
           title: "Chatbot",
           description: "Design & Development",
-          imgUrl: projImg2,
+          imgUrl: chatBox,
+          proj: "https://joshuapark2.github.io/chatbot/",
+          repo: "https://github.com/joshuapark2/chatbot",
         },
         {
           title: "WIP",
           description: "Design & Development",
           imgUrl: projImg3,
+          proj: "https://joshuapark2.github.io/robofriends/",
+          repo: "https://github.com/joshuapark2/robofriends",
         },
       ];
 

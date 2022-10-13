@@ -419,12 +419,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+/*boarder of card*/
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 100%;
 }
+/*sliding animation when hovering over card*/
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -447,6 +451,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+/*over-arching text placement*/
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
@@ -478,7 +483,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 42%;
 }
 .contact h2 {
 	font-size: 45px;
@@ -578,7 +583,7 @@ ul.actions {
 }
 
   ul.actions li {
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 2rem;
     vertical-align: middle;
   }
 

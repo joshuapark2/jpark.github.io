@@ -83,7 +83,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={jQuery} alt="Image" />
-                                <h5>jQueryt</h5>
+                                <h5>jQuery</h5>
                             </div>
                             <div className="item">
                                 <img src={github} alt="Image" />
